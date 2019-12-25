@@ -29,3 +29,11 @@ Config values are set in `.env` files. Several are in the repo.
 * `frontend/.env` - This is ready automatically by `create-react-app` in addition to the root `.env/` file which is passed in via `env-cmd`.
   - This supports `env-expand` which means variables in the root `.env` can be made available to the react build like:
     - `REACT_APP_BAR=$FOO`
+
+## Setup
+
+To get started, you need to make the following changes:
+
+- Register an [Auth0](https://auth0.com) account
+  - Create an app for it
+  - Copy the domain and client id into the root `.env`
